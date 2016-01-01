@@ -1,0 +1,59 @@
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-nav li a{
+	color: #fff !important;
+	font-size: 20px;
+	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+	margin-top: 15px;
+}
+
+.navbar-inverse{
+     background: rgba(0,0,0,0.8);
+}
+
+.navbar-brand{
+	margin-top: 15px;
+	font-size: 30px;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.images{
+    text-align: center;
+}
+
+.images img{
+  cursor: pointer;
+  width: 5%;
+}
+
+.modal-body img
+{
+  width: 100%;
+}
+
+.my-images{
+  margin-top: 50px;
+}
+
+.my-social-media{
+  margin-top: 100px;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .images img{
+      width: 12%;
+    }
+}
