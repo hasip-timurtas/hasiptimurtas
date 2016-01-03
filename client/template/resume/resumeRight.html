@@ -1,43 +1,61 @@
 <template name="resumeRight">
 	<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 resume-right">
-		<span class="resume-slash">//</span> <span class="resume-header">Experience</span>
+				<!-- Pint !-->
+				<div class="resume-print" onclick="window.print();">
+					<i class="fa fa-print fa-2x" title="Print the page."></i>
+				</div>
+
+				<span class="resume-slash">//</span> <span class="resume-header">About Me</span>
 				<div class="line"></div>
+				{{> aboutMe}}
+				<span class="resume-slash">//</span> <span class="resume-header">Experience</span>
+				<div class="line"></div>
+
 				{{> experiences}}
 				
 				<span class="resume-slash">//</span> <span class="resume-header">Educations</span>
 				<div class="line"></div>
+				<div class="resume-educations">
+					<div class="row">
+						<div class="col-md-2 experience-date">
+								09.2010 - 06.2012
+						</div>
 
-				<div class="row">
-					<div class="col-md-2 experience-date">
-							09.2010 - 06.2012
-					</div>
+						<div class="col-md-7">
+								<strong>Associate degree - Computer Technology and Programming </strong>
+						</div>
+						<div class="col-md-3 text-right">
+								Karabuk University
+						</div>
 
-					<div class="col-md-7">
-							<strong>Associate degree - Computer Technology and Programming </strong>
-					</div>
-					<div class="col-md-3 text-right">
-							Karabuk University
-					</div>
+					</div>	
 
-				</div>	
+					<div class="row">
+						<div class="col-md-2 experience-date">
+								09.2005 - 06.2010
+						</div>
 
-				<div class="row">
-					<div class="col-md-2 experience-date">
-							09.2005 - 06.2010
-					</div>
+						<div class="col-md-5">
+								<strong>Marketing - Retail and Insurance</strong>
+						</div>
+						<div class="col-md-5 text-right">
+								Alparslan Trade Vocational High School
+						</div>
 
-					<div class="col-md-5">
-							<strong>Marketing - Retail and Insurance</strong>
-					</div>
-					<div class="col-md-5 text-right">
-							Alparslan Trade Vocational High School
-					</div>
-
-				</div>	
+					</div>	
+				</div>
 				<br>
-				<span class="resume-slash">//</span> <span class="resume-header">Skills</span>
-				<div class="line"></div>
-				{{> resumeSkills}}
+				
 				
 	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<span class="resume-slash">//</span> <span class="resume-header">Skills</span>
+			<div class="line"></div>
+				{{> resumeSkills}}
+			<div class="line"></div>
+		</div>
+	</div>
+
+
 </template>

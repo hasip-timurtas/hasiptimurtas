@@ -81,7 +81,15 @@
 
 .resume-profile{
   margin-top: 15px;
+  font-family: Lato,arial,sans-serif;
 }
+
+.resume-print{
+  float: right;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
 
 .resume-slash{
     font-size: 18px;
@@ -117,6 +125,12 @@
 
 /*   RESUME RIGHT    */
 
+.about-me{
+  font-family: Lato,arial,sans-serif;
+  font-size: 14px;
+  padding-bottom: 7px;
+}
+
 .experience-date{
     font-size: 12px;
     color: #DE8629;
@@ -144,6 +158,10 @@
   text-align: right;
 }
 
+
+.resume-educations .row{
+  margin-top: 15px;
+}
 
 /* SKILS */
 
@@ -178,7 +196,7 @@
 
 
 @media print {
-  .resume-profile{
-    text-align: left;
+  .resume-print{
+    display: none;
   }
 }
