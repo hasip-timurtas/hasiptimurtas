@@ -5,6 +5,11 @@
 					<i class="fa fa-print fa-2x" title="Print the page."></i>
 				</div>
 
+				<div class="resume-download">
+					<i class="fa fa-download fa-2x" title="Download as a PDF."></i>
+				</div>
+				
+
 				<span class="resume-slash">//</span> <span class="resume-header">About Me</span>
 				<div class="line"></div>
 				{{> aboutMe}}
@@ -45,16 +50,19 @@
 					</div>	
 				</div>
 				<br>
+				<div class="row">
+					<div class="col-md-12">
+						<span class="resume-slash">//</span> <span class="resume-header">Skills</span>
+						<div class="line"></div>
+							{{> resumeSkills}}
+						<div class="line"></div>
+					</div>
+				</div>
 				
 				
 	</div>
 	<div class="row">
-		<div class="col-md-12">
-			<span class="resume-slash">//</span> <span class="resume-header">Skills</span>
-			<div class="line"></div>
-				{{> resumeSkills}}
-			<div class="line"></div>
-		</div>
+		
 	</div>
 
 

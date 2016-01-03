@@ -84,11 +84,32 @@
   font-family: Lato,arial,sans-serif;
 }
 
+.resume-certificate{
+  margin-top: 15px;
+  font-family: Lato,arial,sans-serif;
+}
+
+.resume-certificate small{
+  float: left;
+  margin-top: 20px;
+}
+
+.resume-certificate div{
+  margin-bottom: 10px;
+}
+
 .resume-print{
   float: right;
   cursor: pointer;
   margin-right: 10px;
 }
+
+.resume-download{
+  float: right;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
 
 
 .resume-slash{
@@ -123,12 +144,22 @@
   background-color: #444;
 }
 
+
+.certificate{
+   cursor: pointer;
+}
+
+.certificate:hover{
+  color: orange;
+  font-weight: bold;
+}
+
 /*   RESUME RIGHT    */
 
 .about-me{
   font-family: Lato,arial,sans-serif;
   font-size: 14px;
-  padding-bottom: 7px;
+  padding-bottom: 30px;
 }
 
 .experience-date{
@@ -136,17 +167,18 @@
     color: #DE8629;
     font-weight: bold;
     text-align: center;
+    margin-top: 4px;
 }
 
 .resume-title{
   float: right;
-  margin-top: 13px;
+  margin-top: 4px;
   margin-right: 10px;
 }
 
 
 .job-company{
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
 }
 
@@ -197,6 +229,10 @@
 
 @media print {
   .resume-print{
+    display: none;
+  }
+
+  .resume-certificate small{
     display: none;
   }
 }
