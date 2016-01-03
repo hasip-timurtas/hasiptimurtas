@@ -1,7 +1,6 @@
 
 Template.header.events({
 	"click .images img":function(event) {
-		 console.log(event);
         ShowBootstrapModel(event.currentTarget);
 	}
 });
