@@ -95,13 +95,17 @@
 }
 
 .resume-certificate div{
-  margin-bottom: 10px;
+  margin-bottom: 28px;
 }
 
 .resume-print{
   float: right;
   cursor: pointer;
   margin-right: 10px;
+}
+
+.resume-download{
+  display: none;
 }
 
 .resume-download{
@@ -159,7 +163,7 @@
 .about-me{
   font-family: Lato,arial,sans-serif;
   font-size: 14px;
-  padding-bottom: 30px;
+  padding-bottom: 21px;
 }
 
 .experience-date{
@@ -233,6 +237,10 @@
   }
 
   .resume-certificate small{
+    display: none;
+  }
+
+  .line{
     display: none;
   }
 }
