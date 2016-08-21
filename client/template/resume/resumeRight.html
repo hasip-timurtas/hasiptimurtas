@@ -13,15 +13,32 @@
 				<span class="resume-slash">//</span> <span class="resume-header">About Me</span>
 				<div class="line"></div>
 				{{> aboutMe}}
-				<span class="resume-slash">//</span> <span class="resume-header">Experience</span>
-				<div class="line"></div>
 
-				{{> experiences}}
-				
+				<div class="row">
+					<div class="col-md-12">
+						<span class="resume-slash">//</span> <span class="resume-header">Skills</span>
+						<div class="line"></div>
+							{{> resumeSkills}}
+					</div>
+				</div>
+				<br />
 				<span class="resume-slash">//</span> <span class="resume-header">Educations</span>
 				<div class="line"></div>
 				<div class="resume-educations">
-					<div class="row">
+                    <div class="row">
+                        <div class="col-md-2 experience-date">
+                            09.2016 - 06.2018
+                        </div>
+
+                        <div class="col-md-7">
+                            <strong> Web Design and Coding (Online Education) </strong>
+                        </div>
+                        <div class="col-md-3 text-right">
+                            Anadolu University
+                        </div>
+
+                    </div>
+                    <div class="row">
 						<div class="col-md-2 experience-date">
 								09.2010 - 06.2012
 						</div>
@@ -50,14 +67,10 @@
 					</div>	
 				</div>
 				<br>
-				<div class="row">
-					<div class="col-md-12">
-						<span class="resume-slash">//</span> <span class="resume-header">Skills</span>
-						<div class="line"></div>
-							{{> resumeSkills}}
-						<div class="line"></div>
-					</div>
-				</div>
+
+				<span class="resume-slash">//</span> <span class="resume-header">Experience</span>
+				<div class="line"></div>
+				{{> experiences}}
 				
 				
 	</div>
